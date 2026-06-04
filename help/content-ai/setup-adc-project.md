@@ -34,7 +34,7 @@ AEM Content AI Servicesでは、2つの認証方法をサポートしていま�
 
 | メソッド | 次に最適 |
 | --- | --- |
-| [ サーバー間](#s2s-auth) | ユーザーの操作なしでAPIを呼び出すバックエンドサービス。 短期間有効なアクセストークンを返します。 |
+| [&#x200B; サーバー間](#s2s-auth) | ユーザーの操作なしでAPIを呼び出すバックエンドサービス。 短期間有効なアクセストークンを返します。 |
 | [API キー](#api-key-auth) | APIを直接呼び出すクライアントサイドまたはブラウザーベースの統合。 許可されたドメインに対してスコープが設定された長期間有効なキーを返します。 |
 
 ## サーバー間認証 {#s2s-auth}
@@ -51,11 +51,11 @@ AEM Content AI Servicesでは、2つの認証方法をサポートしていま�
 
 1. **[!UICONTROL Configure API]** ダイアログで、**[!UICONTROL サーバー間]**&#x200B;認証を選択します。
 
-   ![ サーバー間のAPI ダイアログを選択しました](../assets/e2e-env-setup-29.png)
+   ![&#x200B; サーバー間のAPI ダイアログを選択しました](../assets/e2e-env-setup-29.png)
 
    >[!TIP]
    >
-   >サーバー間オプションが使用できない場合、統合を設定するユーザーは開発者として製品プロファイルに追加されません。 [ サーバー間認証を有効にする](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)を参照してください。
+   >サーバー間オプションが使用できない場合、統合を設定するユーザーは開発者として製品プロファイルに追加されません。 [&#x200B; サーバー間認証を有効にする](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)を参照してください。
 
 1. 必要に応じて、資格情報の名前を変更します。 「**[!UICONTROL 次へ]**」を選択します。
 
@@ -75,7 +75,7 @@ AEM Content AI Servicesでは、2つの認証方法をサポートしていま�
 
 1. ADC プロジェクトで、**[!UICONTROL 資格情報]**&#x200B;に移動し、**[!UICONTROL アクセストークンの生成]**&#x200B;を選択します。
 
-   「アクセストークンを生成」ボタンが強調表示された![資格情報ページ ](../assets/e2e-env-setup-32.png)
+   「アクセストークンを生成」ボタンが強調表示された![資格情報ページ &#x200B;](../assets/e2e-env-setup-32.png)
 
 1. すべてのAPI リクエストの`Authorization` ヘッダーにトークンを含めます。
 
@@ -115,5 +115,5 @@ AEM Content AI Servicesでは、2つの認証方法をサポートしていま�
 
 ## 次の手順 {#next-steps}
 
-* [ コンテンツソースの制御](contentsources.md) - Cloud Managerとトリガーの取得でコンテンツソースを設定します。
-* [ コンテンツ AI API リファレンス ](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - アクセストークンまたはAPI キーを使用して、インデックス付きコンテンツをクエリします。
+* [&#x200B; コンテンツソースの制御](contentsources.md) - Cloud Managerとトリガーの取得でコンテンツソースを設定します。
+* [&#x200B; コンテンツ AI API リファレンス &#x200B;](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - アクセストークンまたはAPI キーを使用して、インデックス付きコンテンツをクエリします。
