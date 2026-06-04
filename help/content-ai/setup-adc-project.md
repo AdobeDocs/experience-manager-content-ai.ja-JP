@@ -47,7 +47,7 @@ AEM Content AI Servicesでは、2つの認証方法をサポートしていま�
 
    >[!NOTE]
    >
-   >「ライセンスが必要です」というメッセージが表示されてAPI カードが無効になっている場合、AEM as a Cloud Service環境が最新化されていない可能性があります。 [AEM as a Cloud Service環境の最新化](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/setup#modernization-of-aem-as-a-cloud-service-environment)を参照してください。
+   >「ライセンスが必要です」というメッセージが表示されてAPI カードが無効になっている場合、AEM as a Cloud Service環境が最新化されていない可能性があります。 [AEM as a Cloud Service環境の最新化](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/aem-apis/openapis/setup#modernization-of-aem-as-a-cloud-service-environment)を参照してください。
 
 1. **[!UICONTROL Configure API]** ダイアログで、**[!UICONTROL サーバー間]**&#x200B;認証を選択します。
 
