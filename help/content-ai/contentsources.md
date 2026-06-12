@@ -23,7 +23,7 @@ ht-degree: 1%
 開始する前に、次の条件が満たされていることを確認してください。
 
 * 1つ以上のAEM as a Cloud Service環境を持つアクティブなCloud Manager プログラムがあります。
-* プログラムのAdmin Consoleで&#x200B;**[システム管理者](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)**&#x200B;の役割を持っています。
+* プログラムのAdmin Consoleで&#x200B;**[システム管理者](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)**&#x200B;の役割を持っています。
 * 環境製品プロファイルが&#x200B;**Adobe Admin Console**&#x200B;でプロビジョニングされました。[Adobe Developer Console プロジェクトの設定](setup-adc-project.md)を参照してください。
 
 ## 手順1 - 「コンテンツ AI設定」タブを開く {#open-tab}
