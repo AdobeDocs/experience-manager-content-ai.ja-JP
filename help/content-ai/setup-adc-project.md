@@ -27,7 +27,7 @@ AEM Content AI Services APIを呼び出すには、Adobe Developer Console（ADC
 * お客様の組織の[Adobe Developer Console](https://developer.adobe.com/console/)にアクセスできます。
 * **Adobe Admin Console**&#x200B;のAEM Content AI Services製品プロファイルに&#x200B;**開発者**&#x200B;として追加されました。 このロールがないと、**[!UICONTROL AEM Content AI Services]** API カードは無効になり、**[!UICONTROL サーバー間]**&#x200B;認証オプションは非表示になります。
 * 選択する製品プロファイルのプログラム番号と環境番号（例：`AEM User - publish - Program 12345 - Environment 67890`）を知っています。
-* プログラムのAdmin Consoleで&#x200B;**[システム管理者](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)**&#x200B;の役割を持っています。 この役割では、製品プロファイルを管理し、環境にユーザーを割り当てることができます。
+* プログラムのAdmin Consoleで&#x200B;**[システム管理者](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)**&#x200B;の役割を持っています。 この役割では、製品プロファイルを管理し、環境にユーザーを割り当てることができます。
 
 ## 認証方法の選択 {#choose-auth}
 
@@ -48,7 +48,7 @@ AEM Content AI Servicesでは、2つの認証方法をサポートしていま�
 
    >[!NOTE]
    >
-   >「ライセンスが必要です」というメッセージが表示されてAPI カードが無効になっている場合、AEM as a Cloud Service環境が最新化されていない可能性があります。 [AEM as a Cloud Service環境の最新化](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/setup#modernization-of-aem-as-a-cloud-service-environment)を参照してください。
+   >「ライセンスが必要です」というメッセージが表示されてAPI カードが無効になっている場合、AEM as a Cloud Service環境が最新化されていない可能性があります。 [AEM as a Cloud Service環境の最新化](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/aem-apis/openapis/setup#modernization-of-aem-as-a-cloud-service-environment)を参照してください。
 
 1. **[!UICONTROL Configure API]** ダイアログで、**[!UICONTROL サーバー間]**&#x200B;認証を選択します。
 
