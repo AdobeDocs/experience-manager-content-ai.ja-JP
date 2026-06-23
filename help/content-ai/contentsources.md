@@ -6,9 +6,9 @@ role: Developer, Admin
 level: Beginner
 solution: Experience Manager
 keywords: AEM Content AI, Content AI Sources，獲得，Cloud Manager, Adobe Developer Console
-source-git-commit: 86c0b8b910583701dc4bd42b61e082cc5429cee8
+source-git-commit: 2ff1bbdd3ff224e2a6b389243c78af5fd228d5ee
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1225'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,42 @@ ht-degree: 1%
 開始する前に、次の条件が満たされていることを確認してください。
 
 * 1つ以上のAEM as a Cloud Service環境を持つアクティブなCloud Manager プログラムがあります。
-* プログラムのAdmin Consoleで&#x200B;**[システム管理者](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)**&#x200B;の役割を持っています。
-* 環境製品プロファイルが&#x200B;**Adobe Admin Console**&#x200B;でプロビジョニングされました。[Adobe Developer Console プロジェクトの設定](setup-adc-project.md)を参照してください。
+* お客様のユーザーは、ターゲット環境の&#x200B;**AEM Users**&#x200B;製品プロファイルに割り当てられ、ユーザーはコンテンツソースを表示できます。
+* お客様のユーザーは、ターゲット環境の&#x200B;**AEM Administrators**&#x200B;製品プロファイルに割り当てられます。これにより、ユーザーはコンテンツ ソースを作成および編集できます。 Cloud Managerへのアクセスだけでは不十分です。以下の「[AEM製品プロファイルへのユーザーの割り当て](#assign-product-profile)」を参照してください。
+* 環境製品プロファイルが&#x200B;**Adobe Admin Console**&#x200B;でプロビジョニングされました。
+
+## AEM製品プロファイルへのユーザーの割り当て {#assign-product-profile}
+
+特定の環境に対する[!DNL Adobe Experience Manager] as a Cloud Serviceへのアクセス権をユーザーに付与するには、次の手順を実行します。 ユーザーが必要とするアクセス権に一致するプロファイルを割り当てます。
+
+* **[!UICONTROL AEM ユーザー]** - コンテンツソースを表示します。
+* **[!UICONTROL AEM管理者]** - コンテンツソースを作成および編集します。
+
+>[!NOTE]
+>
+>AEMにアクセスするには、**[!UICONTROL AEM Users]**&#x200B;または&#x200B;**[!UICONTROL AEM Administrators]**&#x200B;などのAEM製品プロファイルに属している必要があります。 Cloud Managerだけでは十分ではありません。
+
+これらのプロファイルを割り当てるには、[!UICONTROL Business Owner] Cloud Manager製品プロファイルを持つシステム管理者である必要があります。 ユーザーの名前とメールアドレスを準備します。
+
+1. [Cloud Manager](https://my.cloudmanager.adobe.com/)で、プログラムに移動し、ターゲット環境の&#x200B;**[!UICONTROL アクセスの管理]**&#x200B;を選択します。 その環境の[!DNL Adobe Admin Console]が新しいタブで開きます。
+1. **パブリッシュ**&#x200B;層（例：`AEM Administrators - publish - Program 12345 - Environment 67890`）の&#x200B;**[!UICONTROL AEM Users]**&#x200B;または&#x200B;**[!UICONTROL AEM Administrators]**&#x200B;製品プロファイルを選択します。 Content AIは公開されたコンテンツにインデックスを作成するので、プロファイルはオーサーではなく公開レベルで割り当てる必要があります。
+1. 「**[!UICONTROL ユーザーを追加]**」を選択します。
+1. ユーザーの名前とメールアドレスを入力し、変更を保存します。 ユーザーが製品プロファイルに追加されます。
+
+開発、ステージング、実稼動など、ユーザーがアクセスを必要とする環境ごとに、これらの手順を繰り返します。
+
+>[!CAUTION]
+>
+>**[!UICONTROL AEM Administrators]**&#x200B;または&#x200B;**[!UICONTROL AEM Users]**&#x200B;という名前のデフォルトの製品プロファイルを編集または削除しないでください。 **[!UICONTROL AEM管理者]**&#x200B;の名前を変更すると、割り当てられたすべてのユーザーから管理者権限が削除されます。
+
+### 割り当てを確認 {#verify-assignment}
+
+割り当てが成功したことを確認するには、次の手順に従います。
+
+1. [!DNL Admin Console]で、割り当てた製品プロファイルを再度開きます。
+1. ユーザーがメンバーリストに表示されていることを確認します。
+
+アクセスまたはトークンの問題をトラブルシューティングする場合は、ユーザーがグループを通じてだけでなく、製品プロファイルに直接追加されていることを確認します。
 
 ## 手順1 - 「コンテンツ AI設定」タブを開く {#open-tab}
 

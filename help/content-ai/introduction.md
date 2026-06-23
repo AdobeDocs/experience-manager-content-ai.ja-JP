@@ -6,9 +6,9 @@ role: Developer, Admin
 level: Beginner
 solution: Experience Manager
 keywords: AEM Content AI，概要，コンテンツソース，セマンティック検索，獲得，Cloud Manager
-source-git-commit: 9b3c63be1aa95339086ee5994cd4dd7cdfa7e746
+source-git-commit: 2ff1bbdd3ff224e2a6b389243c78af5fd228d5ee
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ MCPとエージェントは、ユースケース主導のコンテンツ要件�
 
 ### &#x200B;2. コンテンツ AI ソースの管理 {#control}
 
-コンテンツ AI ソースを設定および管理して、AI ベースのエクスペリエンスを有効にします。[&#x200B; コンテンツソースの制御](contentsources.md)を参照してください。
+コンテンツ AI ソースを設定および管理して、AI ベースのエクスペリエンスを有効にします。詳しくは、[&#x200B; コンテンツソースの制御](contentsources.md)を参照してください。
 
 ## コンテンツ AI APIについてさらに詳しく  {#apis}
 

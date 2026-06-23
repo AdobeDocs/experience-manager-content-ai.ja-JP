@@ -6,9 +6,9 @@ role: Developer, Admin
 level: Beginner
 solution: Experience Manager
 keywords: AEM Content AI、Adobe Developer Console、認証、サーバー間、API キー、アクセストークン
-source-git-commit: 445aeafe64eb8a68d0770c1f1afb54d68e0b054f
+source-git-commit: 2ff1bbdd3ff224e2a6b389243c78af5fd228d5ee
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '714'
 ht-degree: 3%
 
 ---
@@ -27,6 +27,7 @@ AEM Content AI Services APIを呼び出すには、Adobe Developer Console（ADC
 * お客様の組織の[Adobe Developer Console](https://developer.adobe.com/console/)にアクセスできます。
 * **Adobe Admin Console**&#x200B;のAEM Content AI Services製品プロファイルに&#x200B;**開発者**&#x200B;として追加されました。 このロールがないと、**[!UICONTROL AEM Content AI Services]** API カードは無効になり、**[!UICONTROL サーバー間]**&#x200B;認証オプションは非表示になります。
 * 選択する製品プロファイルのプログラム番号と環境番号（例：`AEM User - publish - Program 12345 - Environment 67890`）を知っています。
+* プログラムのAdmin Consoleで&#x200B;**[システム管理者](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)**&#x200B;の役割を持っています。 この役割では、製品プロファイルを管理し、環境にユーザーを割り当てることができます。
 
 ## 認証方法の選択 {#choose-auth}
 
