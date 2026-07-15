@@ -67,8 +67,8 @@ AEM コンテンツ AI は、4 つのレイヤーのスタックとして構造�
 
 ### &#x200B;2. コンテンツ AI ソースを制御 {#control}
 
-コンテンツ AI ソースを設定および管理して、AI ベースのエクスペリエンスを有効にします。詳しくは、[ コンテンツソースの制御](contentsources.md)を参照してください。
+コンテンツ AI ソースを設定および管理して、AI ベースのエクスペリエンスを有効にします。詳しくは、[&#x200B; コンテンツソースの制御](contentsources.md)を参照してください。
 
 ## Content AI API について学ぶ  {#apis}
 
-AEM コンテンツ AI の機能の幅広さについて - API は、プラットフォームの潜在能力を最大限に引き出します。 [ コンテンツ AI API](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/)を参照してください。
+AEM コンテンツ AI の機能の幅広さについて - API は、プラットフォームの潜在能力を最大限に引き出します。 [&#x200B; コンテンツ AI API](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/)を参照してください。
