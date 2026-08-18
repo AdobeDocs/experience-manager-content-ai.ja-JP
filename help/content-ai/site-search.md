@@ -125,7 +125,7 @@ AEM コンテンツ AI 検索は、セマンティック検索機能と生成検
 * 少なくとも1つのContent Sourceが既に作成されており、**Available**&#x200B;状態になっています。
 * 有効なAPI資格情報とデフォルトのContent Sourceを使用して、オーサーとパブリッシュの両方で設定された&#x200B;**AEM Content AI Client** OSGi設定（`ContentAIClientImpl`）。
 
-完全な設定ガイド – 作成者がコンポーネントを使用できるようにすること、クライアントライブラリを接続すること、ダイアログを設定する方法については、[ コアコンポーネントのドキュメント ](https://www.adobe.com/go/aem_cmp_library_jp)を参照してください。
+完全な設定ガイド – 作成者がコンポーネントを使用できるようにすること、クライアントライブラリを接続すること、ダイアログを設定する方法については、[&#x200B; コアコンポーネントのドキュメント &#x200B;](https://www.adobe.com/go/aem_cmp_library_jp)を参照してください。
 
 ## これで完了です。 {#congratulations}
 
@@ -136,5 +136,5 @@ AEM コンテンツ AI 検索は、セマンティック検索機能と生成検
 ## 次の手順 {#next-steps}
 
 * [Adobe Developer Console プロジェクトの設定](setup-adc-project.md) - Content AI APIを直接呼び出すために必要なADC プロジェクトと資格情報を作成します。
-* [ コンテンツ AI API リファレンス ](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - セマンティック、生成、またはハイブリッドの検索エンドポイントを使用して、インデックス付きコンテンツをクエリします。
-* [ コアコンポーネントドキュメント ](https://www.adobe.com/go/aem_cmp_library_jp) - プロキシコンポーネントとテンプレートポリシーについて詳しく説明します。
+* [&#x200B; コンテンツ AI API リファレンス &#x200B;](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - セマンティック、生成、またはハイブリッドの検索エンドポイントを使用して、インデックス付きコンテンツをクエリします。
+* [&#x200B; コアコンポーネントドキュメント &#x200B;](https://www.adobe.com/go/aem_cmp_library_jp) - プロキシコンポーネントとテンプレートポリシーについて詳しく説明します。
