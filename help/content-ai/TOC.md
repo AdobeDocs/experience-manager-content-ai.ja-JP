@@ -5,9 +5,9 @@ user-guide-description: Experience Manager コンテンツ AI
 solution: Experience Manager
 nudge: true
 source-git-commit: 4d7c01ef3d71b1f8fe458960e5b7e37c78c647c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '34'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,5 +17,5 @@ ht-degree: 79%
 + [はじめに](introduction.md)
 + [コンテンツソースの制御](contentsources.md)
 + [Adobe Developer Console プロジェクトの設定](setup-adc-project.md)
-+ [AEM コンテンツAI 検索の基本を学ぶ](site-search.md)
++ [AEM コンテンツ AI 検索の基本を学ぶ](site-search.md)
 
