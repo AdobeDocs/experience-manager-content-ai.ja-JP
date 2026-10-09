@@ -6,13 +6,22 @@ role: Developer, Admin
 level: Beginner
 solution: Experience Manager
 keywords: AEM コンテンツ AI, Adobe Developer Console, 認証, サーバー間, API キー, アクセストークン
-source-git-commit: 2ff1bbdd3ff224e2a6b389243c78af5fd228d5ee
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 1364d35876ef0fcc502a3d02f8025ee7df067daf
+workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
-
 ---
-
 
 # Adobe Developer Console プロジェクトの設定 {#configure-adc-project}
 
