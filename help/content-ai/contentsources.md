@@ -63,9 +63,9 @@ ht-degree: 77%
 
 詳しくは、次を参照してください。
 
-* [Cloud Manager製品プロファイルへのチームメンバーの割り当て](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-cloud-manager)
+* [Cloud Manager製品プロファイルへのチームメンバーの割り当て](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-cloud-manager)
 * [Cloud Manager へのアクセス](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager)
-* [AEM as a Cloud Serviceのチームと製品のプロファイル](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles)
+* [AEM as a Cloud Serviceのチームと製品のプロファイル](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles)
 * [ユーザーと役割の追加](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-manager/content/requirements/users-and-roles)
 
 ## AEM 製品プロファイルへのユーザーの割り当て {#assign-product-profile}
