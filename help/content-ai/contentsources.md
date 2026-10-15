@@ -20,7 +20,7 @@ level_v2:
 source-git-commit: 1364d35876ef0fcc502a3d02f8025ee7df067daf
 workflow-type: tm+mt
 source-wordcount: '1671'
-ht-degree: 77%
+ht-degree: 100%
 ---
 
 # コンテンツ AI ソースの設定と管理
@@ -32,40 +32,40 @@ ht-degree: 77%
 開始する前に、次の条件を満たしていることを確認してください。
 
 * 1 つ以上の AEM as a Cloud Service 環境を持つアクティブな Cloud Manager プログラムがある。
-* Cloud Manager製品プロファイルがあり、Cloud Managerにログインできます。以下の「[Cloud Managerへのアクセスを取得する](#cloud-manager-access)」を参照してください。
+* Cloud Manager 製品プロファイルがあり、Cloud Manager にログインできること。以下の [Cloud Manager へのアクセス権を取得](#cloud-manager-access)を参照してください。
 * ユーザーがターゲット環境の **AEM ユーザー**&#x200B;製品プロファイルに割り当てられ、これによりコンテンツソースを表示できる。
 * ユーザーがターゲット環境の **AEM 管理者**&#x200B;製品プロファイルに割り当てられ、これによりコンテンツソースを作成および編集できる。 Cloud Manager へのアクセス権のみでは不十分です。以下の [AEM 製品プロファイルへのユーザーの割り当て](#assign-product-profile)を参照してください。
 * 環境の製品プロファイルが **Adobe Admin Console** でプロビジョニングされている。
 
-## Cloud Managerにアクセス {#cloud-manager-access}
+## Cloud Manager へのアクセス権を取得 {#cloud-manager-access}
 
-「**[!UICONTROL Content AI Configuration]**」タブを開くには、Cloud Manager UIにアクセスする必要があります。 組織の[!DNL Adobe Admin Console]管理者（システム管理者または製品管理者）がこのアクセス権を付与します。
+「**[!UICONTROL コンテンツ AI 設定]**」タブを開くには、Cloud Manager UI にアクセスする必要があります。 組織の [!DNL Adobe Admin Console] 管理者（システム管理者または製品管理者）がこのアクセス権を付与します。
 
-1. [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com/)の管理者にお問い合わせください。 まだ組織のメンバーでない場合は、管理者にAdobe IDまたは電子メールアドレスの追加を依頼します。
-1. 組織のAEM as a Cloud Service プログラム用のCloud Manager製品プロファイルを割り当てるように管理者に依頼します。
+1. [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com/) 管理者にお問い合わせください。 まだ組織のメンバーでない場合は、管理者に Adobe ID またはメールアドレスの追加を依頼してください。
+1. 組織の AEM as a Cloud Service プログラム用の Cloud Manager 製品プロファイルを割り当てるように管理者に依頼します。
 
-   | 製品プロファイル | できること |
+   | 製品プロファイル | 許可される操作 |
    | --- | --- |
-   | **[!UICONTROL ビジネスオーナー]** | プログラムの管理： **[!UICONTROL アクセスの管理]**&#x200B;など、幅広いCloud Manager権限を持っています。 |
-   | **[!UICONTROL デプロイメントマネージャー]** | 環境、デプロイ、パイプラインを管理します。 |
-   | **[!UICONTROL プログラムマネージャー]** | チーム設定とプログラム監視を管理します。 |
-   | **[!UICONTROL 開発者]** | コードとGitで動作します。 Cloud Manager権限が制限されています。 |
+   | **[!UICONTROL ビジネスオーナー]** | プログラムを管理します。 **[!UICONTROL アクセス権の管理]**&#x200B;など、幅広い Cloud Manager 権限を持っています。 |
+   | **[!UICONTROL デプロイメントマネージャー]** | 環境、デプロイメント、パイプラインを管理します。 |
+   | **[!UICONTROL プログラムマネージャー]** | チーム設定とプログラム監視を行います。 |
+   | **[!UICONTROL 開発者]** | コードと Git を扱います。 Cloud Manager 権限は制限されています。 |
 
-1. Cloud Managerを開くには、[Cloud Manager](https://my.cloudmanager.adobe.com/)でログインするか、[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/) > **[!DNL Experience Manager]** > **[!UICONTROL Cloud Manager]**&#x200B;に移動します。 Adobe IDが複数の組織に属している場合は、正しい組織を選択します。
+1. Cloud Manager を開くには、[Cloud Manager](https://my.cloudmanager.adobe.com/) にログインするか、[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/) > **[!DNL Experience Manager]** > **[!UICONTROL Cloud Manager]** に移動します。 お使いの Adobe ID が複数の組織に属している場合は、正しい組織を選択してください。
 
 >[!NOTE]
 >
->Cloud Manager製品プロファイルでは、コンテンツソースへのアクセス権がありません。 環境には&#x200B;**[!UICONTROL AEM Users]**&#x200B;または&#x200B;**[!UICONTROL AEM Administrators]**&#x200B;製品プロファイルも必要です。[AEM製品プロファイルへのユーザーの割り当て](#assign-product-profile)を参照してください。 デフォルトのCloud Manager ユーザーロールのみを持つユーザーは、環境を開くことができますが、プログラムレベルのアクセス権は取得できません。
+>Cloud Manager 製品プロファイルでは、コンテンツソースへのアクセス権はありません。 環境に対して、**[!UICONTROL AEM ユーザー]**&#x200B;または **[!UICONTROL AEM 管理者]**&#x200B;製品プロファイルも必要です。[AEM 製品プロファイルへのユーザーの割り当て](#assign-product-profile)を参照してください。 デフォルトの Cloud Manager ユーザーロールのみを持つユーザーは、環境を開くことはできますが、プログラムレベルのアクセス権は付与されません。
 
-ログインしてもプログラムまたは「**[!UICONTROL コンテンツ AI設定]**」タブが表示されない場合は、管理者に割り当てられた製品プロファイルの確認を依頼してください。 ログイン時に正しい組織を選択したことも確認します。 AEM Managed Servicesでは、AEM as a Cloud Serviceとは異なる[!DNL Admin Console]製品コンテキストと設定が使用されています。
+ログインしてもプログラムまたは「**[!UICONTROL コンテンツ AI 設定]**」タブが表示されない場合は、割り当てられた製品プロファイルの確認を管理者に依頼してください。 また、ログイン時に正しい組織を選択したことも確認してください。 AEM Managed Services では、AEM as a Cloud Service とは異なる [!DNL Admin Console] 製品コンテキストと設定を使用します。
 
-最初のオンボーディング中にプログラムを作成するには、システム管理者が最初に&#x200B;**[!UICONTROL Business Owner]** プロファイルを持ち、Cloud Managerにログインする必要があります。
+最初のオンボーディング中にプログラムを作成するには、システム管理者が最初に&#x200B;**[!UICONTROL ビジネスオーナー]**&#x200B;プロファイルを保持した状態で、Cloud Manager にログインする必要があります。
 
 詳しくは、次を参照してください。
 
-* [Cloud Manager製品プロファイルへのチームメンバーの割り当て](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-cloud-manager)
+* [Cloud Manager 製品プロファイルへのチームメンバーの割り当て](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/journey/assign-profiles-cloud-manager)
 * [Cloud Manager へのアクセス](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager)
-* [AEM as a Cloud Serviceのチームと製品のプロファイル](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles)
+* [AEM as a Cloud Service のチームおよび製品プロファイル](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles)
 * [ユーザーと役割の追加](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-manager/content/requirements/users-and-roles)
 
 ## AEM 製品プロファイルへのユーザーの割り当て {#assign-product-profile}
@@ -82,9 +82,9 @@ ht-degree: 77%
 これらのプロファイルを割り当てるには、[!UICONTROL ビジネスオーナー Cloud Manager 製品プロファイル]を持つシステム管理者である必要があります。 ユーザーの名前とメールアドレスを準備します。
 
 1. [Cloud Manager](https://my.cloudmanager.adobe.com/) でプログラムに移動し、ターゲット環境の「**[!UICONTROL アクセスを管理]**」を選択します。 新しいタブで、その環境の [!DNL Adobe Admin Console] が開きます。
-1. **作成者**&#x200B;層と&#x200B;**パブリッシュ**&#x200B;層（例：`AEM Administrators - author - Program 12345 - Environment 67890`と`AEM Administrators - publish - Program 12345 - Environment 67890`など）の両方の&#x200B;**[!UICONTROL AEM Users]**&#x200B;または&#x200B;**[!UICONTROL AEM Administrators]**&#x200B;製品プロファイルを選択します。
+1. **オーサー**&#x200B;層と&#x200B;**パブリッシュ**&#x200B;層の両方に、**[!UICONTROL AEM ユーザー]**&#x200B;または **[!UICONTROL AEM 管理者]**&#x200B;製品プロファイルを選択してください（例えば、`AEM Administrators - author - Program 12345 - Environment 67890` や `AEM Administrators - publish - Program 12345 - Environment 67890`）。
    * **[!UICONTROL AEM ユーザー]** – 読み取り専用の操作。
-   * **[!UICONTROL AEM管理者]** - コンテンツソースの作成、編集、削除、取得のトリガーなどの書き込み操作。
+   * **[!UICONTROL AEM 管理者]** - コンテンツソースの作成、編集、削除、獲得のトリガーなどの書き込み操作。
 1. 「**[!UICONTROL ユーザーを追加]**」を選択します。
 1. ユーザー名とメールアドレスを入力し、変更を保存します。 ユーザーが製品プロファイルに追加されます。
 
@@ -209,7 +209,7 @@ ht-degree: 77%
 
 削除後、ソースはリストに表示されなくなります。
 
-## 次の手順 {#next-steps}
+## 次のステップ {#next-steps}
 
 * [Adobe Developer Console プロジェクトの設定](setup-adc-project.md) - API を呼び出すために必要な ADC プロジェクトと資格情報を作成します。
 * [Content AI API リファレンス](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - セマンティック、フルテキストまたはハイブリッド検索エンドポイントを使用して、インデックス作成済みコンテンツのクエリを実行します。
