@@ -6,7 +6,7 @@ product_v2:
     internal-label: "Experience Manager"
 usetq: true
 type: Documentation
-git-repo: https://github.com/AdobeDocs/experience-manager-content-ai.en
+git-repo: https://github.com/AdobeDocs/experience-manager-content-ai.ja-JP
 index: true
 recommendations: noDisplay
 source-git-commit: a47559544a9e972285ba570f16a38272b35794a8
