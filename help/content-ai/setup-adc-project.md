@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 source-git-commit: 1364d35876ef0fcc502a3d02f8025ee7df067daf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
 ht-degree: 100%
 ---
@@ -123,7 +123,7 @@ AEM コンテンツ AI サービスでは、2 つの認証方法をサポート�
 
    プロジェクトの準備が整いました。 AEM コンテンツ AI サービスへのすべてのリクエストにこのキーを使用します。
 
-## 次の手順 {#next-steps}
+## 次のステップ {#next-steps}
 
 * [コンテンツソースの制御](contentsources.md) - Cloud Manager でコンテンツソースを設定し、取得をトリガーします。
 * [Content AI API リファレンス](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - アクセストークンまたは API キーを使用して、インデックス作成済みコンテンツのクエリを実行します。
