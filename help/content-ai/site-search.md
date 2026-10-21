@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 source-git-commit: 1364d35876ef0fcc502a3d02f8025ee7df067daf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
 ht-degree: 100%
 ---
