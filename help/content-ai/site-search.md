@@ -17,10 +17,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 1364d35876ef0fcc502a3d02f8025ee7df067daf
-workflow-type: ht
+source-git-commit: fb7ec4db1f4d90acc88b594de4c3e4ca720be2df
+workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 100%
+ht-degree: 99%
 ---
 
 # AEM コンテンツ AI 検索の基本を学ぶ
@@ -142,8 +142,8 @@ AEM コンテンツ AI 検索は、セマンティック検索機能と生成検
 
 >[!VIDEO](https://video.tv.adobe.com/v/3497306)
 
-## 次のステップ {#next-steps}
+## 次の手順 {#next-steps}
 
 * [Adobe Developer Console プロジェクトの設定](setup-adc-project.md) - Content AI API を直接呼び出すために必要な ADC プロジェクトと資格情報を作成します。
-* [Content AI API リファレンス](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - セマンティック、フルテキストまたはハイブリッド検索エンドポイントを使用して、インデックス作成済みコンテンツのクエリを実行します。
+* [Content AI API リファレンス](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentai/) - セマンティック、フルテキストまたはハイブリッド検索エンドポイントを使用して、インデックス作成済みコンテンツのクエリを実行します。
 * [コアコンポーネントドキュメント](https://www.adobe.com/go/aem_cmp_library_jp) - プロキシコンポーネントとテンプレートポリシーについて詳しく説明します。

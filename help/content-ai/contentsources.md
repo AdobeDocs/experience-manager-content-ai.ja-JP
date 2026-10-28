@@ -17,10 +17,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 1364d35876ef0fcc502a3d02f8025ee7df067daf
-workflow-type: ht
+source-git-commit: fb7ec4db1f4d90acc88b594de4c3e4ca720be2df
+workflow-type: tm+mt
 source-wordcount: '1671'
-ht-degree: 100%
+ht-degree: 99%
 ---
 
 # コンテンツ AI ソースの設定と管理
@@ -209,10 +209,10 @@ ht-degree: 100%
 
 削除後、ソースはリストに表示されなくなります。
 
-## 次のステップ {#next-steps}
+## 次の手順 {#next-steps}
 
 * [Adobe Developer Console プロジェクトの設定](setup-adc-project.md) - API を呼び出すために必要な ADC プロジェクトと資格情報を作成します。
-* [Content AI API リファレンス](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - セマンティック、フルテキストまたはハイブリッド検索エンドポイントを使用して、インデックス作成済みコンテンツのクエリを実行します。
+* [Content AI API リファレンス](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentai/) - セマンティック、フルテキストまたはハイブリッド検索エンドポイントを使用して、インデックス作成済みコンテンツのクエリを実行します。
 
 ## トラブルシューティング {#troubleshooting}
 
