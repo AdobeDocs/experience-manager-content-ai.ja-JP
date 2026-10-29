@@ -17,10 +17,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 1364d35876ef0fcc502a3d02f8025ee7df067daf
-workflow-type: ht
+source-git-commit: fb7ec4db1f4d90acc88b594de4c3e4ca720be2df
+workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 100%
+ht-degree: 98%
 ---
 
 # AEM コンテンツ AI - 概要
@@ -80,4 +80,4 @@ AI ベースのエクスペリエンスを有効にするには、コンテン�
 
 ## Content AI API について学ぶ  {#apis}
 
-AEM コンテンツ AI の機能の幅広さについて - API は、プラットフォームの潜在能力を最大限に引き出します。 [Content AI API](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) を参照してください。
+AEM コンテンツ AI の機能の幅広さについて - API は、プラットフォームの潜在能力を最大限に引き出します。 [Content AI API](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentai/) を参照してください。
